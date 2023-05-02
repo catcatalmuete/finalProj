@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Roboto:wght@400;500&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+	background: #ffccc0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topnav {
+    margin-bottom: 5vh;
+    background-color: #ffdb7f;
+    border-bottom: 2px solid rgb(176, 176, 176);
+}
+
+.title {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Oleo Script', cursive;
+    color: black;
+	font-size: 60px;
+}
+
+.profile {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 2px solid rgb(176, 176, 176);
+    background-color: #95c9be;
+}
+
+.profilePic {
+    margin: 20px 40px;
+    max-width: 3vw;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+a:hover { 
+    color: #ffdb7f;
+    cursor: pointer;
+}
+
+.picture {
+    margin-bottom: 20px;
+    border: 2px solid rgb(176, 176, 176);
+    object-fit: cover;
+    object-position: center;
+	height: 75vh;
+	size: cover;
+}
+
+.heart {
+    margin-left: 40px;
+    margin-right: 40px;
+    max-width: 35px;
+}
+
+.heart:hover {
+    cursor: pointer;
+}
+
+.likeCount {
+    margin: 10px 40px 0px 40px;
+    font-size: 20px;
+}
+
+.captionName {
+    margin: 20px 40px 0px 40px;
+    font-size: 20px;
+}
+
+.captionText {
+    margin: 10px 40px 20px 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.postBlock {
+    margin-bottom: 50px;
+    height: 125vh;
+    width: 50vw;
+	background: #ff7e57;
+    border: 2px solid rgb(176, 176, 176);
+	display: flex;
+    flex-direction: column;
+}
