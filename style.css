@@ -27,7 +27,7 @@ body {
     justify-content: left;
     align-items: center;
     flex-wrap: wrap;
-    border-bottom: 2px solid rgb(176, 176, 176);
+    border-bottom: 5px solid rgb(176, 176, 176);
     background-color: #95c9be;
 }
 
@@ -51,7 +51,7 @@ a:hover {
 
 .picture {
     margin-bottom: 20px;
-    border: 2px solid rgb(176, 176, 176);
+    border-bottom: 5px solid rgb(176, 176, 176);
     object-fit: cover;
     object-position: center;
 	height: 75vh;
@@ -79,7 +79,7 @@ a:hover {
 }
 
 .captionText {
-    margin: 10px 40px 20px 40px;
+    margin: 10px 40px 30px 40px;
     font-size: 20px;
     font-weight: 400;
 }
@@ -92,10 +92,10 @@ a:hover {
 
 .postBlock {
     margin-bottom: 50px;
-    height: 125vh;
+    height: 100%;
     width: 50vw;
 	background: #ff7e57;
-    border: 2px solid rgb(176, 176, 176);
+    border: 10px solid #ffdb7f;
 	display: flex;
     flex-direction: column;
 }
